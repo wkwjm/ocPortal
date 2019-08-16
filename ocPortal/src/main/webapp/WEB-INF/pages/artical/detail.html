@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>在线网校学习平台</title>
+    <#include "../common/res.html">
+    <style>
+        .artical-back{
+            background: #f8f8f8;
+        }
+    </style>
+</head>
+
+<body  class="artical-back">
+<#include "../common/header.html">
+
+<div class="content">
+    <div class="container-fluid">
+
+        <div class="block span6">
+            <div class="block-body collapse in p-tb-20">
+                <div>
+                    <div class="text-center">
+                        <h2>${(artical.title)!}</h2>
+                        <h6>作者：${(artical.auther)!} </h6>
+                    </div>
+                    <p>${(artical.content)!}</p>
+                </div>
+               <!-- <button type="button" class="btn btn-default wk" onclick="window.history.go(-1)">返回</button>-->
+            </div>
+        </div>
+
+    </div>
+</div>
+<#include "../common/footer.html">
+</body>
+</html>

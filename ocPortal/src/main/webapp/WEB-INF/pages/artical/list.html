@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>在线网校学习平台</title>
+    <#include "../common/res.html">
+    <style>
+        .artical-back{
+           background: #f8f8f8;
+        }
+    </style>
+</head>
+
+<body  class="artical-back">
+<#include "../common/header.html">
+<div class="listContent clearfix" style="margin-left: 180px;">
+    <#if (articals)??>
+    <ul class="pull-left">
+        <#list articals as item>
+        <li>
+            <a class="link-a" href="${s.base}/artical/getByIdDetail.html?id=${item.id!}">${item.title!}</a>
+        </li>
+        <p>${item.createTime?string('yyyy-MM-dd')}</p>
+       </#list>
+    </ul>
+    </#if>
+
+    <div class="pull-right">
+        <img style="width: 400px;length:470px;" src="${s.base}/res/i/11.jpg">
+    </div>
+
+</div>
+<#include "../common/footer.html">
+</body>
+</html>

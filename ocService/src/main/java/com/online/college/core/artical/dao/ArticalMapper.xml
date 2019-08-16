@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://10.20.91.130/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.online.college.core.artical.dao.ArticalDao">
+
+	<resultMap id="BeanResultMap" type="com.online.college.core.artical.domain.Artical" >
+		<id column="id" property="id" jdbcType="INTEGER"/>
+		<result column="title" property="title"  jdbcType="VARCHAR" />
+		<result column="content" property="content"  jdbcType="VARCHAR" />
+		<result column="create_time" property="createTime"  jdbcType="DATE" />
+		<result column="update_time" property="updateTime"  jdbcType="DATE" />
+		<result column="auther" property="auther"  jdbcType="VARCHAR" />
+		<result column="delflag" property="delflag"  jdbcType="INTEGER" />
+	</resultMap> 
+
+	<sql id="All_Columns">
+		id, title, content, create_time, update_time, auther,
+		delflag
+	</sql>
+
+	<!--获取所有文章-->
+	<select id="queryAll" resultType="com.online.college.core.artical.domain.Artical">
+		SELECT
+		<include refid="All_Columns" />
+		FROM t_artical
+		WHERE delflag = 0
+	</select>
+
+	<!--根据id获取文章详情-->
+	<select id="getById" parameterType="Integer"  resultMap="BeanResultMap">
+		SELECT 
+		<include refid="All_Columns"  />
+		FROM t_artical
+		WHERE id = #{id, jdbcType=INTEGER}
+		AND delflag = 0
+	</select>
+
+	<!--创建文章-->
+	<insert id="create" parameterType="com.online.college.core.artical.domain.Artical" flushCache="true"  useGeneratedKeys="true" keyProperty="id"  >
+		INSERT INTO t_artical
+		<trim prefix="(" suffix=")"  suffixOverrides="," >
+				title,
+				content,
+			    create_time,
+			    update_time,
+				auther,
+				delflag
+		</trim>
+		VALUES
+		<trim prefix="(" suffix=")"  suffixOverrides="," >
+			#{title, jdbcType=VARCHAR},
+			#{content, jdbcType=VARCHAR},
+			 now(),
+			 now(),
+			 #{auther, jdbcType=VARCHAR},
+		     0
+		</trim>
+	</insert>
+
+	<!--获取文章数量-->
+	<select id="getTotalItemsCount" parameterType="com.online.college.core.artical.domain.Artical" resultType="java.lang.Integer">
+		SELECT COUNT(*) FROM t_artical
+		WHERE delflag = 0
+		<if test="title != null">
+			AND title like CONCAT('%',#{title},'%' )
+		</if>
+	</select>
+
+	<!--分页文章列表-->
+	<select id="queryPage" resultType="com.online.college.core.artical.domain.Artical">
+		SELECT
+		<include refid="All_Columns" />
+		FROM t_artical
+		WHERE delflag = 0
+		<if test="param1.title != null">
+			AND title like CONCAT('%',#{param1.title},'%' )
+		</if>
+		ORDER BY id
+		LIMIT #{param2.startIndex, jdbcType=INTEGER} , #{param2.pageSize, jdbcType=INTEGER}
+	</select>
+
+	<!--更新文章-->
+	<update id="update" parameterType="com.online.college.core.artical.domain.Artical" flushCache="true">
+		UPDATE t_artical
+		<trim prefix="SET" suffixOverrides="," >
+			<if test="title != null ">
+				title = #{title, jdbcType=VARCHAR},
+			</if>
+			<if test="auther != null ">
+				auther = #{auther, jdbcType=VARCHAR},
+			</if>
+			update_time = now()
+		</trim>
+		WHERE id = #{id, jdbcType = INTEGER}
+	</update>
+
+    <!-- 逻辑删除-->
+	<update id="deleteLogic" parameterType="com.online.college.core.artical.domain.Artical" flushCache="true">
+		UPDATE t_artical
+		SET delflag = 1
+		WHERE id = #{id, jdbcType=INTEGER}
+	</update>
+
+	<!-- 批量删除-->
+	<delete id="deleteMulti">
+		DELETE FROM t_artical
+		WHERE id IN
+		<foreach collection="array" open="(" close=")" separator="," item="id">
+			#{id, jdbcType=INTEGER}
+		</foreach>
+	</delete>
+</mapper>

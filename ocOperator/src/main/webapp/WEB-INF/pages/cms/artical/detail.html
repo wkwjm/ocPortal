@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>后台管理</title>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <!-- 引入资源文件 -->
+    <#include "../../common/res.html" />
+    <style>
+        .wk{
+            margin-left: 1120px;
+        }
+    </style>
+</head>
+
+<body class="">
+<!-- top 导航 -->
+<#include "../../common/header.html" />
+
+<!-- 菜单导航 -->
+<#include "../cms-nav.html" />
+
+<div class="content">
+    <div class="container-fluid">
+
+        <div class="block span6">
+            <a class="block-heading f-14" data-toggle="collapse">查看文章</a>
+            <div class="block-body collapse in p-tb-20">
+                <div>
+                    <div class="text-center">
+                        <h2>${(artical.title)!}</h2>
+                        <h6>作者：${(artical.auther)!} </h6>
+                    </div>
+                    <p>${(artical.content)!}</p>
+                </div>
+                <button type="button" class="btn btn-default wk" onclick="window.history.go(-1)">返回</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<#include "../../common/footer.html" />
+</body>
+</html>

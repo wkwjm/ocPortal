@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ocOperator:war">
+    <output-path>$PROJECT_DIR$/ocOperator/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ocOperator</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ocOperator.war">
+      <element id="artifact" artifact-name="ocOperator:war exploded" />
+    </root>
+  </artifact>
+</component>

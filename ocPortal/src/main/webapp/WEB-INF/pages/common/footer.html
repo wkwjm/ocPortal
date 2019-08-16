@@ -1,0 +1,28 @@
+<div class="f-footer fixed-bottom">
+	<div class="f-footer-box clearfix">
+		<div class="footer-link">
+			<a href="http://www.runoob.com/" target="_blank" title="菜鸟教程">菜鸟教程</a>
+			<a href="https://github.com/" target="_blank" title="GitHub">GitHub</a>
+			<a href="https://www.csdn.net/" target="_blank" title="CSDN论坛">CSDN论坛</a>
+			<a href="https://cn.vuejs.org/" target="_blank" title="Vue中文网">Vue中文网</a>
+		</div>
+		<div class="footer-copyright">
+			<span>©&nbsp;合肥师范学院&nbsp;学号:&nbsp;1510421069</span>
+		</div>
+	</div>
+</div>
+<script>
+	function footerPosition(){
+		$(".f-footer").removeClass("fixed-bottom");
+		var contentHeight = document.body.scrollHeight,//网页正文全文高度
+				winHeight = window.innerHeight;//可视窗口高度，不包括浏览器顶部工具栏
+		if(!(contentHeight > winHeight)){
+			//当网页正文高度小于可视窗口高度时，为footer添加类fixed-bottom
+			$(".f-footer").addClass("fixed-bottom");
+		} else {
+			$(".f-footer").removeClass("fixed-bottom");
+		}
+	}
+	footerPosition();
+	$(window).resize(footerPosition);
+</script>

@@ -1,0 +1,1529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ocOperator:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bd084e64-7f31-4b4f-8788-756625ac0f2c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../hello-spring-boot/src/main/java/com/funtl/hello/spring/boot/service/ProvinceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring-boot/src/main/java/com/funtl/hello/spring/boot/service/impl/ProvinceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring-boot/src/main/resources/static/img/tree-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-spring-boot/src/main/resources/static/js/jquery-1.4.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/.settings/.jsdtscope" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/.settings/org.eclipse.wst.validation.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/.settings/org.maven.ide.eclipse.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/ocOperator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/business/ICourseBusiness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/business/ICourseSectionBusiness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/business/IPortalBusiness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/business/impl/CourseBusinessImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/business/impl/CourseSectionBusinessImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/business/impl/PortalBusinessImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/controller/ArticalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/controller/AuthUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/controller/ClassifyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/controller/CmsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/controller/CollegeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/controller/CourseCommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/controller/CourseSectionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/controller/SiteCarouselController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/test/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/vo/ConstsClassifyVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/vo/CourseSectionVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/resources/app-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/resources/shiro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/ftl/spring.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/auth/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/cms/artical/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/cms/artical/articalPagelist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/cms/artical/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/cms/carousel/merge.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/cms/carousel/pagelist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/cms/classify/classifyIndex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/cms/cms-nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/cms/college/collegePageList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/cms/course/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/cms/course/append.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/cms/course/pagelist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/cms/course/read.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/cms/course/readComment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/cms/course/readReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/cms/course/readSection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/cms/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/cms/user/userPageList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/common/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/common/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/common/res.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/common/tailPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/error/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/css/bootstrapValidator.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/i/c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/i/c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/i/c3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/i/c4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/i/c5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/i/course.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/i/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/i/followed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/i/following.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/i/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/i/ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/i/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/i/main-bg-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/i/main-bg-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/i/main-bg-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/app/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/app/datetime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/app/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/bootstrapValidator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/dropzone/basic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/dropzone/dropzone-amd-module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/dropzone/dropzone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/dropzone/dropzone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/dropzone/min/basic.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/dropzone/min/dropzone-amd-module.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/dropzone/min/dropzone.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/dropzone/min/dropzone.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/dropzone/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/highcharts-4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/aero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/aero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/aero@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/flat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/flat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/flat@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/grey@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/orange@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/pink@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/purple@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/red@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/flat/yellow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/futurico/futurico.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/futurico/futurico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/futurico/futurico@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/icheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/icheck.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/line/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/line/aero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/line/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/line/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/line/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/line/line.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/line/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/line/line@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/line/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/line/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/line/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/line/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/line/yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/aero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/aero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/aero@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/grey@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/minimal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/minimal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/minimal@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/orange@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/pink@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/purple@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/red@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/minimal/yellow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/polaris/polaris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/polaris/polaris.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/polaris/polaris@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/aero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/aero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/aero@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/grey@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/orange@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/pink@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/purple@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/red@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/square.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/square@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/iCheck/square/yellow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/jquery-1.11.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/oc.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/wangEditor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_springframework_spring_aop_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_springframework_spring_beans_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_springframework_spring_context_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_springframework_spring_core_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_springframework_spring_expression_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_springframework_spring_test_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_springframework_spring_tx_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_springframework_spring_web_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__tk_mybatis_mapper_base_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__tk_mybatis_mapper_core_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__tk_mybatis_mapper_extra_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__tk_mybatis_mapper_spring_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_autoconfigure_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_starter_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__tk_mybatis_mapper_weekend_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/spring-boot-shiro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/src/main/java/com/funtl/spring/boot/shiro/ShiroSpringBootApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/src/main/java/com/funtl/spring/boot/shiro/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/src/main/java/com/funtl/spring/boot/shiro/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/src/main/java/com/funtl/spring/boot/shiro/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/src/main/java/com/funtl/spring/boot/shiro/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/src/main/java/com/funtl/spring/boot/shiro/shiro/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/src/main/java/com/funtl/spring/boot/shiro/shiro/UserRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/src/main/resources/templates/one.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/src/main/resources/templates/permission.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/src/main/resources/templates/sse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-shiro/src/main/resources/templates/two.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservice-my-shop/myshop-commons-dubbo" beforeDir="false" afterPath="$PROJECT_DIR$/../microservice-my-shop/myshop-commons-dubbo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservice-my-shop/myshop-service-user-consumer" beforeDir="false" afterPath="$PROJECT_DIR$/../microservice-my-shop/myshop-service-user-consumer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservice-my-shop/myshop-service-user-provider" beforeDir="false" afterPath="$PROJECT_DIR$/../microservice-my-shop/myshop-service-user-provider" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/ocCommon/target/" />
+    <ignored path="$PROJECT_DIR$/ocOperator/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/ocService/target/" />
+    <ignored path="$PROJECT_DIR$/ocPortal/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/controller/CourseController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1569">
+              <caret line="207" selection-start-line="207" selection-end-line="207" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/cms/course/add.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#label#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/common/res.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/oc.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="386" selection-start-line="386" selection-end-line="386" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/wangEditor.min.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/auth/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="55" column="59" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
+              <folding>
+                <element signature="n#style#0;n#li#4;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ocCommon/src/main/java/com/online/college/common/storage/FastDFSUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/CourseController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="75" column="59" selection-start-line="75" selection-start-column="49" selection-end-line="75" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ocCommon/src/main/java/com/online/college/common/storage/FastDFSConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ocCommon/src/main/java/com/online/college/common/service/impl/FastDFSStorageService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>commentForm</find>
+      <find>commentQA</find>
+      <find>f-footer</find>
+      <find>subClassifysTable</find>
+      <find>usernameHeader2</find>
+      <find>registe</find>
+      <find>_queryPage</find>
+      <find>photoImgChange</find>
+      <find>writeFile</find>
+      <find>doUpload</find>
+      <find>pictureImg</find>
+      <find>oc</find>
+      <find>{s.base}</find>
+      <find>res</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ocPortal/src/main/webapp/WEB-INF/pages/video.html" />
+        <option value="$PROJECT_DIR$/ocPortal/src/main/webapp/WEB-INF/pages/commentSegment.html" />
+        <option value="$PROJECT_DIR$/ocPortal/src/main/webapp/WEB-INF/pages/artical/list.html" />
+        <option value="$PROJECT_DIR$/ocPortal/src/main/webapp/WEB-INF/pages/common/header.html" />
+        <option value="$PROJECT_DIR$/ocPortal/src/main/webapp/WEB-INF/pages/common/header2.html" />
+        <option value="$PROJECT_DIR$/ocPortal/src/main/webapp/WEB-INF/pages/error/404.html" />
+        <option value="$PROJECT_DIR$/ocPortal/src/main/webapp/res/css/reset.css" />
+        <option value="$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/test/Demo.java" />
+        <option value="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/error/404.html" />
+        <option value="$PROJECT_DIR$/ocPortal/src/main/webapp/WEB-INF/pages/auth/register.html" />
+        <option value="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/auth/login.html" />
+        <option value="$PROJECT_DIR$/ocPortal/src/main/resources/shiro.xml" />
+        <option value="$PROJECT_DIR$/ocPortal/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/ocOperator/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/ocPortal/pom.xml" />
+        <option value="$PROJECT_DIR$/ocOperator/pom.xml" />
+        <option value="$PROJECT_DIR$/ocService/pom.xml" />
+        <option value="$PROJECT_DIR$/ocCommon/src/main/resources/fdfs_client.properties" />
+        <option value="$PROJECT_DIR$/ocCommon/src/main/java/com/online/college/common/service/impl/FastDFSStorageService.java" />
+        <option value="$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/controller/SiteCarouselController.java" />
+        <option value="$PROJECT_DIR$/ocCommon/src/main/java/com/online/college/common/storage/StorageFactory.java" />
+        <option value="$PROJECT_DIR$/ocCommon/src/main/java/com/online/college/common/storage/FastDFSConfiguration.java" />
+        <option value="$PROJECT_DIR$/ocCommon/src/main/java/com/online/college/common/storage/FastDFSUtils.java" />
+        <option value="$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/auth/service/impl/AuthUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/consts/service/impl/ConstsSiteCarouselServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ocService/src/main/java/com/online/college/web/auth/AuthRealm.java" />
+        <option value="$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/CourseCommentController.java" />
+        <option value="$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/CourseController.java" />
+        <option value="$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/controller/CourseCommentController.java" />
+        <option value="$PROJECT_DIR$/ocCommon/src/main/java/com/online/college/common/service/StorageService.java" />
+        <option value="$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/controller/CourseController.java" />
+        <option value="$PROJECT_DIR$/ocCommon/src/main/java/com/online/college/common/storage/FastDFSConfig.java" />
+        <option value="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/cms/course/add.html" />
+        <option value="$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/common/res.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ocProject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ocProject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ocService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="1020" />
+    <option name="height" value="720" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\study\ocProject\ocCommon\src\main\java\com\online\college\common\storage" />
+      <recent name="F:\study\ocProject\ocCommon\src\main\java\com\online\college\common" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.ocOperator">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_ocProject" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55531" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ocOperator" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="ocOperator:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ocProject_2" />
+        <option name="HTTP_PORT" value="9090" />
+        <option name="JNDI_PORT" value="10991" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55531" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="59379" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ocOperator:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="ocPortal" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="ocPortal:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ocPortal" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ocProject" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55531" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="58474" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ocPortal:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.ocOperator" />
+      <item itemvalue="Tomcat Server.ocPortal" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd084e64-7f31-4b4f-8788-756625ac0f2c" name="Default Changelist" comment="" />
+      <created>1553957182429</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553957182429</updated>
+      <workItem from="1553957187190" duration="1442000" />
+      <workItem from="1553961518554" duration="912000" />
+      <workItem from="1554213928890" duration="3641000" />
+      <workItem from="1554379115641" duration="3656000" />
+      <workItem from="1554636850940" duration="15797000" />
+      <workItem from="1554778870817" duration="1474000" />
+      <workItem from="1554855396773" duration="806000" />
+      <workItem from="1554914492429" duration="14000" />
+      <workItem from="1554926919207" duration="665000" />
+      <workItem from="1555514997882" duration="774000" />
+      <workItem from="1555553046693" duration="55000" />
+      <workItem from="1555553136803" duration="2866000" />
+      <workItem from="1555634772596" duration="13418000" />
+      <workItem from="1555759967996" duration="4895000" />
+      <workItem from="1555782866915" duration="3056000" />
+      <workItem from="1556340576682" duration="270000" />
+      <workItem from="1556772053757" duration="1577000" />
+      <workItem from="1557628469602" duration="1229000" />
+      <workItem from="1557632370987" duration="6608000" />
+      <workItem from="1557715434707" duration="655000" />
+      <workItem from="1557748956242" duration="2262000" />
+      <workItem from="1557762252322" duration="606000" />
+      <workItem from="1557763673597" duration="1133000" />
+      <workItem from="1557812332353" duration="1773000" />
+      <workItem from="1558012167888" duration="6141000" />
+      <workItem from="1558282107331" duration="5437000" />
+      <workItem from="1558494736083" duration="1123000" />
+      <workItem from="1558505307245" duration="13540000" />
+      <workItem from="1560316683543" duration="249000" />
+      <workItem from="1560419737627" duration="97000" />
+      <workItem from="1564540531244" duration="1752000" />
+      <workItem from="1564548136993" duration="6082000" />
+      <workItem from="1565934819801" duration="3778000" />
+    </task>
+    <task id="LOCAL-00001" summary="新增fastdfs">
+      <created>1565938350270</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565938350270</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="107783000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31023455" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="JRebel" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295711" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5579632" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4967811" weight="0.283857" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32911393" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32863188" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32911393" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32775453" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50133866" side_tool="true" weight="0.3980447" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32731378" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.5032189" side_tool="true" weight="0.489842" />
+      <window_info anchor="bottom" id="Problems" order="16" weight="0.32911393" />
+      <window_info anchor="bottom" id="JRebel Executor" order="17" />
+      <window_info anchor="bottom" id="Java Enterprise" order="18" weight="0.32863188" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.37100214" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31300268" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="JRebel" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.55853313" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49732262" visible="true" weight="0.2761506" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32911393" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32863188" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32911393" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32911393" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50133866" side_tool="true" weight="0.39831698" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32863188" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.5026774" side_tool="true" weight="0.38008416" />
+      <window_info anchor="bottom" id="Problems" order="16" weight="0.32911393" />
+      <window_info anchor="bottom" id="JRebel Executor" order="17" />
+      <window_info anchor="bottom" id="Java Enterprise" order="18" weight="0.32863188" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32885906" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增fastdfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增fastdfs" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="request" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/cms/artical/detail.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/domain/CourseQueryDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/webapp/WEB-INF/pages/common/header.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/resources/shiro.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/PortalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="84" column="18" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/webapp/WEB-INF/pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/CourseListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="78" column="47" lean-forward="true" selection-start-line="78" selection-start-column="47" selection-end-line="78" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/cms/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/business/ICourseBusiness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocPortal/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocOperator/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="87" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocService/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocCommon/src/main/java/com/online/college/common/web/auth/SessionUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/dao/CourseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/service/impl/CourseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocCommon/src/main/java/com/online/college/common/storage/FastDFSFile.java" />
+    <entry file="file://$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/controller/SiteCarouselController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1567">
+          <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/service/ICourseCommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-351">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/jquery-1.11.3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="18675" selection-start-line="4" selection-start-column="18675" selection-end-line="4" selection-end-column="18675" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/webapp/res/js/jquery-1.11.3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="18675" selection-start-line="4" selection-start-column="18675" selection-end-line="4" selection-end-column="18675" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/course/service/ICourseSectionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-680">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/auth/service/impl/AuthUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/core/consts/service/impl/ConstsSiteCarouselServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/web/IdentifyCodeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocService/src/main/java/com/online/college/web/auth/AuthRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/CourseCommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-874">
+          <caret line="53" column="36" lean-forward="true" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2494">
+          <caret line="62" column="37" lean-forward="true" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/controller/ArticalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1512">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/controller/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/controller/CmsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/controller/CollegeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/controller/CourseCommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocCommon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocCommon/src/main/java/com/online/college/common/service/StorageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocOperator/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocCommon/src/main/java/com/online/college/common/storage/FastDFSConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocCommon/src/main/resources/fdfs_client.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocCommon/src/main/java/com/online/college/common/storage/StorageFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-477">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.1.RELEASE/spring-webmvc-4.1.1.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1021">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.1.RELEASE/spring-web-4.1.1.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocOperator/src/main/java/com/online/college/opt/controller/CourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1569">
+          <caret line="207" selection-start-line="207" selection-end-line="207" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/cms/course/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#label#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/auth/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="55" column="59" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#li#4;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocOperator/src/main/webapp/WEB-INF/pages/common/res.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/oc.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="386" selection-start-line="386" selection-end-line="386" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocOperator/src/main/webapp/res/js/wangEditor.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocPortal/src/main/java/com/online/college/portal/controller/CourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="75" column="59" selection-start-line="75" selection-start-column="49" selection-end-line="75" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocCommon/src/main/java/com/online/college/common/storage/FastDFSUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocCommon/src/main/java/com/online/college/common/storage/FastDFSConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocCommon/src/main/java/com/online/college/common/service/impl/FastDFSStorageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ocOperator:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8.0_181</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ocService</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
